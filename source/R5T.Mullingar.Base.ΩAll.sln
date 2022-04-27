@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Mullingar.Base", "R5T.M
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Mullingar.Base.Construction", "R5T.Mullingar.Base.Construction\R5T.Mullingar.Base.Construction.csproj", "{6E981136-F21A-4065-8E16-538D43BF5BB9}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Dependencies", "_Dependencies", "{7C7BF3CD-F7AD-4206-BBA7-A40374D7401B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.T0064", "..\..\R5T.T0064\source\R5T.T0064\R5T.T0064.csproj", "{C0955741-72F7-4ABA-874F-E7D1967F83F8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,5 +48,20 @@ Global
 		{6E981136-F21A-4065-8E16-538D43BF5BB9}.Release|x64.Build.0 = Release|Any CPU
 		{6E981136-F21A-4065-8E16-538D43BF5BB9}.Release|x86.ActiveCfg = Release|Any CPU
 		{6E981136-F21A-4065-8E16-538D43BF5BB9}.Release|x86.Build.0 = Release|Any CPU
+		{C0955741-72F7-4ABA-874F-E7D1967F83F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0955741-72F7-4ABA-874F-E7D1967F83F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0955741-72F7-4ABA-874F-E7D1967F83F8}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{C0955741-72F7-4ABA-874F-E7D1967F83F8}.Debug|x64.Build.0 = Debug|Any CPU
+		{C0955741-72F7-4ABA-874F-E7D1967F83F8}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C0955741-72F7-4ABA-874F-E7D1967F83F8}.Debug|x86.Build.0 = Debug|Any CPU
+		{C0955741-72F7-4ABA-874F-E7D1967F83F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0955741-72F7-4ABA-874F-E7D1967F83F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0955741-72F7-4ABA-874F-E7D1967F83F8}.Release|x64.ActiveCfg = Release|Any CPU
+		{C0955741-72F7-4ABA-874F-E7D1967F83F8}.Release|x64.Build.0 = Release|Any CPU
+		{C0955741-72F7-4ABA-874F-E7D1967F83F8}.Release|x86.ActiveCfg = Release|Any CPU
+		{C0955741-72F7-4ABA-874F-E7D1967F83F8}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C0955741-72F7-4ABA-874F-E7D1967F83F8} = {7C7BF3CD-F7AD-4206-BBA7-A40374D7401B}
 	EndGlobalSection
 EndGlobal
